@@ -1,0 +1,20 @@
+[TOPMOST IS THIS VERSION]
+
+v0.1.0: 26 Jan 2020
+  (1) Methods:
+      (1) insert
+      (2) remove
+      (3) findMinNode
+      (4) getRootNode
+      (5) preOrder
+      (6) inOrder
+      (7) postOrder
+      (8) levelOrder
+      (9) reverseLevelOrder
+      (10) search
+  (2) Resources referred:
+    (1) FreeCodeCamp Youtube video: https://youtu.be/RBSGKlAvoiM?t=11033 (until 3:59:25)
+    (2) Article: https://www.geeksforgeeks.org/implementation-binary-search-tree-javascript/
+    (3) Youtube videos showing logic and Java code by Tushar roy:
+      (a) Level order traversal: https://www.youtube.com/watch?v=9PHkM0Jri_4
+      (b) Reverse level order traversal: https://www.youtube.com/watch?v=D2bIbWGgvzI
