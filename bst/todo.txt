@@ -1,11 +1,15 @@
+v0.3.0: 
+  (1) Methods:
+    (1) reverseLevelReverseOrder
+
 v0.2.0: 02 Feb 2020
   (1) Methods:
-    (1) printLevelOrderUsingTwoQs
-    (2) printLevelOrderUsingDelimiterInOneQ
-    (3) printLevelOrderUsingTwoCountersAndOneQ
-    (4) printReverseLevelOrderUsingTwoQs
-    (5) printReverseLevelOrderUsingDelimiterInOneQ
-    (6) printReverseLevelOrderUsingTwoCountersAndOneQ
+    (1) levelOrderUsingTwoQs
+    (2) levelOrderUsingDelimiterInOneQ
+    (3) levelOrderUsingTwoCountersAndOneQ
+    (4) reverseLevelOrderUsingTwoQs
+    (5) reverseLevelOrderUsingDelimiterInOneQ
+    (6) reverseLevelOrderUsingTwoCountersAndOneQ
 
 v0.3.0: 09 Feb 2020
   (1) Display as tree in webpage with module defined in helper.js
