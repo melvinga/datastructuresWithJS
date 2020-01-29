@@ -1,6 +1,10 @@
 v0.3.0: 
   (1) Methods:
     (1) reverseLevelReverseOrder
+    (2) size - number of nodes
+    (3) height
+    (4) digLeft - smallest value
+    (5) digRight - largest value
 
 v0.2.0: 02 Feb 2020
   (1) Methods:
