@@ -112,9 +112,27 @@ class BinarySearchTree { // Binary Search Tree class
     }
   }
 
+  // returns smallest value
+  findMaxNode(node) {
+    if(node.right === null) {
+      return node;
+    } else {
+      return this.findMaxNode(node.right);
+    }
+  }
+
   // returns root of the tree
   getRootNode() {
     return this.root;
+  }
+
+  // find number of layers (height) of the tree, with root at 1st layer
+  height(node) {
+    if(node === null) {
+      return 0;
+    } else {
+      return (Math.max(this.height(node.left), this.height(node.right)) + 1);
+    }
   }
 
   preOrder(node) {

@@ -33,17 +33,30 @@ BST.insert(16);
 // BST.preOrder(BST.getRootNode());
 // console.log(JSON.stringify(BST.getRootNode(),null,2));
 
-// console.log('In Order Traversal below:');
-// BST.inOrder(BST.getRootNode());
+console.log('In Order Traversal below:');
+BST.inOrder(BST.getRootNode());
 // console.log(JSON.stringify(BST.getRootNode(),null,2));
 
 // console.log('Post Order Traversal below:');
 // BST.postOrder(BST.getRootNode());
 // console.log(JSON.stringify(BST.getRootNode(),null,2));
 
-console.log('Level Order Traversal below:');
-BST.levelOrder(BST.getRootNode());
+// console.log('Level Order Traversal below:');
+// BST.levelOrder(BST.getRootNode());
 // console.log(JSON.stringify(BST.getRootNode(),null,2));
 
-console.log('Reverse Level Order Traversal below:');
-BST.reverseLevelOrder(BST.getRootNode());
+// console.log('Reverse Level Order Traversal below:');
+// BST.reverseLevelOrder(BST.getRootNode());
+// console.log(JSON.stringify(BST.getRootNode(),null,2));
+
+// console.log('Min value below:');
+// console.log((BST.findMinNode(BST.getRootNode())).data);
+// console.log(JSON.stringify(BST.getRootNode(),null,2));
+
+// console.log('Max value below:');
+// console.log((BST.findMaxNode(BST.getRootNode())).data);
+console.log(JSON.stringify(BST.getRootNode(),null,2));
+
+console.log('Height of tree below:');
+console.log((BST.height(BST.getRootNode())));
+// console.log(JSON.stringify(BST.getRootNode(),null,2));

@@ -1,12 +1,9 @@
-v0.3.0: 
+v0.4.0: 
   (1) Methods:
     (1) reverseLevelReverseOrder
     (2) size - number of nodes
-    (3) height
-    (4) digLeft - smallest value
-    (5) digRight - largest value
 
-v0.2.0: 02 Feb 2020
+v0.3.0: 08 Feb 2020
   (1) Methods:
     (1) levelOrderUsingTwoQs
     (2) levelOrderUsingDelimiterInOneQ
@@ -14,6 +11,10 @@ v0.2.0: 02 Feb 2020
     (4) reverseLevelOrderUsingTwoQs
     (5) reverseLevelOrderUsingDelimiterInOneQ
     (6) reverseLevelOrderUsingTwoCountersAndOneQ
+
+v0.2.0: 03 Feb 2020
+  (1) findMaxNode
+  (2) height
 
 v0.3.0: 09 Feb 2020
   (1) Display as tree in webpage with module defined in helper.js
